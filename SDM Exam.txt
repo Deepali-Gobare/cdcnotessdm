@@ -1,0 +1,300 @@
+ =====================================================================
+ 1. SDLC model selection is based on
+ 1. Project type and associated risk
+ 2. Development team & Users
+ 3. Requirements
+ 4. All of the mentioned
+ =====================================================================
+ 2. Which of the following is correct about Agile Disadvantage?
+ Answers
+ 1. Not suitable for handling complex dependencies.
+ 2. More risk of sustainability, maintainability and extensibility
+ 3. Both A and B
+ 4. None of the above
+ =====================================================================
+ 3. Git is the same as GitHub.
+ Answers
+ 1. True
+ 2. False
+ =====================================================================
+ 4. __________ DevOps software that combines the ability to develop, secure, and 
+operate software in a single application.
+ Answers
+ 1. GitLab
+ 2. SVN
+ 3. Microsoft VSS
+ 4. SourceGear Vault PRO
+ =====================================================================
+ 5. Which one of these statements is true?
+ Answers
+ 1. git pull does not modify the local branch tip.
+ 2. git fetch does not update the local branch tip.
+ 3. git fetch may result in a merge conflict.
+ 4. Behavior of git fetch and git pull are same
+=====================================================================
+ 6. Which of the Git repository having hosting functions?
+ Answers
+ 1. Gitlab
+ 2. Bitbucket
+ 3. SourceForge
+ 4. All of the above
+ =====================================================================
+ 7. Git is capable of automatically merging the changes even if the commits are on 
+same lines in perticualar file under same branch
+ Answers
+ 1. True
+ 2. False
+ =====================================================================
+ 8. RAD stands for
+ Answers
+ 1. Rapid Application Development
+ 2. Required Application Development
+ 3. Rapid Application Developers
+ 4. Rapid Application Disposition
+ =====================================================================
+ 9. Waterfall model is not suitable for:
+ Answers
+ 1. Small projects
+ 2. Complex projects
+ 3. Accommodating changes
+ 4. Maintenance Projects
+ =====================================================================
+ 10. What is the major drawback of using RAD Model?
+ Answers
+ 1. Highly specialized & skilled developers/designers are required
+ 2. Increases reusability of components
+ 3. Encourages customer/client feedback
+ 4. Increases reusability of components, Highly specialized & skilled 
+developers/designers are required
+ =====================================================================
+ 11. We classify different objects of the program with the same properties into a 
+class using ___.
+ Answers
+1. Categorization
+ 2. Instantiation
+ 3. Decomposition
+ 4. Generalization
+ =====================================================================
+ 12. Which of the following isn't a goal of NewOps?
+ Answers
+ 1. Serving as an interface between cloud providers and customers.
+ 2. Integrating different operations teams like storage, network, server etc. by 
+removing silos and be aligned with business
+3. By automating operations, remove the need for human competencies.
+ 4. None of these
+ =====================================================================
+ 13. Which of the following model is a software enterprise development phrase used 
+to signify a kind of Agile relationship among development and IT operations.
+ Answers
+ 1. Waterfall
+ 2. DevOps
+ 3. Agile
+ 4. Incremental
+ =====================================================================
+ 14. What is an Ansible?
+ Answers
+ 1. Ansible is a Continuous Integration tool
+ 2. Ansible is a Continuous Monitoring tool
+ 3. Ansible is a Configuration Management and Deployment tools
+ 4. Ansible is a Deployment tools
+ =====================================================================
+ 15. What is the need for DevOps?
+ Answers
+1. Increase deployment frequency
+ 2. Lower failure rate of new releases
+ 3. Both A and B
+ 4. None of the above
+ =====================================================================
+ 16. Which of the following software is perfect for software teams in need of 
+advanced agile functionality and structured workflow?
+ Answers
+ 1. JIRA
+ 2. Visual Studio
+ 3. Eclipse
+ 4. Trello
+ =====================================================================
+ 17. Which of the cloud service models available is used as the foundation upon 
+which operating systems and software are hosted?
+ Answers
+ 1. SaaS
+ 2. IaaS
+ 3. PaaS
+ 4. CaaS
+ =====================================================================
+ 18. A _____ is a combination of virtual resources that simulates the underlying 
+hardware.
+ Answers
+ 1. Host machine
+ 2. Host operating system
+ 3. Virtual Machine
+ 4. Guest operating system
+ =====================================================================
+ 19. Cloud Service consists are:
+ Answers
+ 1. Platform, Hardware, Infrastructure
+ 2. Platform, Software, Infrastructure
+ 3. Software, Infrastructure, Hardware
+ 4. Software, Hardware, Infrastructure
+ =====================================================================
+20. Which is not a characteristic of Cloud Computing?
+ Answers
+ 1. Rapid elasticity
+ 2. Resource pooling
+ 3. On-demand self-service
+ 4. Private hardware centers
+ =====================================================================
+ 21. An Enterprise application runs on Amazon EC2 instances in multiple Availability
+ Zones behind an Application Load Balancer. If one of these instances fails, what 
+occurs?
+ Answers
+ 1. The load balancer will automatically replace the failed instance.
+ 2. The load balancer will stop sending requests to the failed instance.
+ 3. The load balancer will terminate the failed instance.
+ 4. The load balancer will return 504 Gateway Timeout errors until the instance is 
+replaced.
+ =====================================================================
+ 22. Which of the following command used to find the current logging driver for a 
+running container in Docker?
+ Answers
+ 1. docker stats
+ 2. docker info
+ 3. docker config
+ 4. docker inspect
+ =====================================================================
+ 23. Is this a type of Linux kernel namespace that provides container isolation?
+ Answers
+ 1. Yes
+ 2. No
+ =====================================================================
+ 24. __________ is a human-friendly data serialization language for all programming 
+languages.
+ Answers
+ 1. XAML
+ 2. XML
+ 3. YAML
+ 4. JSON
+=====================================================================
+ 25. A host machine has four CPUs available and two running containers. The sysadmin
+ would like to assign two CPUs to each container. Which of the following commands 
+achieves this?
+ Answers
+ 1. Set the '--cpuset-cpu's flag to '1.3' on one container and '2.4' on the other 
+container.
+ 2. Set the '--cpuset-cpus' flag of the 'dockerd' process to the value 'even-spread'
+ 3. Set the '--cpu-quota' flag to '1.3' on one container and '2,4' on the other 
+container.
+ 4. Set the '--cpuset-cpus' flag to '.5' on both containers
+ =====================================================================
+ 26. A user is having problems running Docker. Which of the following will start 
+Docker in debug mode?
+ Answers
+ 1. Set the debug key to true in the 'daemon.json' file.
+ 2. Start the 'dockerd' process manually with the '--logging' flag set to debug
+ 3. Set the logging key to debug in the 'daemon.json' file.
+ 4. Start the 'dockerd' process manually with the '--raw-logs' flag set to debug
+ =====================================================================
+ 27. _________ character used for comments in YAML
+ Answers
+ 1. //
+ 2. ' (single quote mark)
+ 3. #
+ 4. -
+=====================================================================
+ 28. _________ allows one to attach to a container without exiting the container.
+ Answers
+ 1. nsenter
+ 2. docker run
+ 3. cmder
+ 4. none of the above
+ =====================================================================
+ 29. dcker run command will download the image (if it is not already present), and 
+run the OS as a container.
+Answers
+ 1. TRUE
+ 2. FALSE
+ =====================================================================
+ 30. _________ is helpful when multiple teams are using the same cluster and there 
+is a potential of name collision. It can be as a virtual wall between multiple 
+clusters.
+ Answers
+ 1. Kubernetes-Pod
+ 2. Kubernetes-Service
+ 3. Kubernetes-Node
+ 4. Kubernetes-Namespace
+ =====================================================================
+ 31. Microservices require a lot of monitoring to operate effectively
+ Answers
+ 1. True
+ 2. False
+ =====================================================================
+ 32. What is true about distributed tracing used in microservices?
+ Answers
+ 1. It ensure that failed microservices are resurrected properly
+ 2. It transfer log management between a given host on demand
+ 3. It observe the behavior of distinct system calls between and within 
+microservices
+ 4. It change the behavior of a microservice at runtime
+ =====================================================================
+ 33. What is a microservice?
+ Answers
+ 1. A design used primarily in functional programming and object-oriented 
+programming
+ 2. A style of design for enterprise systems based on a loosely coupled component 
+architecture
+ 3. A small program that represents discrete logic that executes within a 
+well-defined boundary on dedicated hardware
+ 4. A very small piece of code that never gets any bigger than 10 lines
+ =====================================================================
+34. Which plugin is used to run the selenium test cases in Jenkins?
+ Answers
+ 1. Hudson
+ 2. JUnit
+ 3. Rational Tools
+ 4. NUnit
+ =====================================================================
+ 35. Load testing is carried out to check whether the system can handle the pressure
+ or load of many users is an example of __________
+ Answers
+ 1. Functional
+ 2. Non-functional testing
+ 3. Unit Testing
+ 4. All of the above
+ =====================================================================
+ 36. __________ is now one of the most widely used software development processes.
+ Answers
+ 1. V Model
+ 2. Waterfall STLC model
+ 3. Both A and B
+ 4. None of the above
+ =====================================================================
+ 37. When to Use The V Model?
+ Answers
+ 1. If the requirement is well defined and not ambiguous
+ 2. If acceptance criteria are well defined.
+ 3. If technology and tools used are not dynamic.
+ 4. All of the above
+ =====================================================================
+ 38. Which of the following approach towards testing includes trial techniques and 
+error guessing method because tester does not need knowledge of internal coding of 
+the software?
+ Answers
+ 1. White Box Testing
+ 2. Grey Box Testing
+ 3. Black Box Testing
+4. Red Box Testing
+ =====================================================================
+ 39. In Jenkins, a __________ is a collection of events or jobs which are 
+interlinked with one another in a sequence.
+ Answers
+ 1. pipeline
+ 2. configuration
+ 3. user
+ 4. None of the above
+ =====================================================================
+ 40. Find the correct sequence used in Jenkins for a continuous delivery pipeline.
+ Answers
+ 1. build, deploy, release and test
+ 2. build, deploy, test and release
+ 3. build, test, deploy and release
+ 4. test, build, deploy and release
+ ====================================================================
